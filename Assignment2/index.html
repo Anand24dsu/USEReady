@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Type Prediction</title>
+</head>
+<body>
+    <h1>Load Type Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="Usage_kWh">Usage kWh:</label>
+        <input type="text" id="Usage_kWh" name="Usage_kWh"><br><br>
+        <label for="Lagging">Lagging:</label>
+        <input type="text" id="Lagging" name="Lagging"><br><br>
+        <label for="Leading">Leading:</label>
+        <input type="text" id="Leading" name="Leading"><br><br>
+        <label for="CO2">CO2:</label>
+        <input type="text" id="CO2" name="CO2"><br><br>
+        <label for="NSM">NSM:</label>
+        <input type="text" id="NSM" name="NSM"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
